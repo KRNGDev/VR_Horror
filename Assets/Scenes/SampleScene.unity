@@ -24525,6 +24525,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: XR Device Simulator
       objectReference: {fileID: 0}
+    - target: {fileID: 1426250288838994140, guid: a06714b17c4d76045a823cd3b9715ea0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6713571430233587936, guid: a06714b17c4d76045a823cd3b9715ea0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -26427,6 +26431,63 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8296172669380533193}
   m_Mesh: {fileID: 4068373912626513877, guid: 7cf3ac7bcd2e5471fb54d5f5da9aad56, type: 3}
+--- !u!1001 &4202642829254862391
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5748088888043926066, guid: 4209e31ff2b15a54b85d0c9dabadde32, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.4721148
+      objectReference: {fileID: 0}
+    - target: {fileID: 5748088888043926066, guid: 4209e31ff2b15a54b85d0c9dabadde32, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.31553897
+      objectReference: {fileID: 0}
+    - target: {fileID: 5748088888043926066, guid: 4209e31ff2b15a54b85d0c9dabadde32, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.3119907
+      objectReference: {fileID: 0}
+    - target: {fileID: 5748088888043926066, guid: 4209e31ff2b15a54b85d0c9dabadde32, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5748088888043926066, guid: 4209e31ff2b15a54b85d0c9dabadde32, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5748088888043926066, guid: 4209e31ff2b15a54b85d0c9dabadde32, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5748088888043926066, guid: 4209e31ff2b15a54b85d0c9dabadde32, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5748088888043926066, guid: 4209e31ff2b15a54b85d0c9dabadde32, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5748088888043926066, guid: 4209e31ff2b15a54b85d0c9dabadde32, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5748088888043926066, guid: 4209e31ff2b15a54b85d0c9dabadde32, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6204533652528860326, guid: 4209e31ff2b15a54b85d0c9dabadde32, type: 3}
+      propertyPath: m_Name
+      value: Gun
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4209e31ff2b15a54b85d0c9dabadde32, type: 3}
 --- !u!222 &4959921755038109234
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -27665,3 +27726,4 @@ SceneRoots:
   - {fileID: 550340425947470257}
   - {fileID: 2044547451}
   - {fileID: 1241364534}
+  - {fileID: 4202642829254862391}
