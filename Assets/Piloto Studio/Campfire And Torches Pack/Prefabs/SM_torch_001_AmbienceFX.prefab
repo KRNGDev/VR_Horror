@@ -16,9 +16,10 @@ GameObject:
   - component: {fileID: 2337895733423678192}
   - component: {fileID: 1665701822051441474}
   - component: {fileID: 8302879277799273731}
+  - component: {fileID: 148266761981756739}
   m_Layer: 0
   m_Name: SM_torch_001_AmbienceFX
-  m_TagString: Untagged
+  m_TagString: Fuego
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -110,8 +111,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.17511886, y: 1.0462325, z: 0.18048827}
-  m_Center: {x: -0.0002869554, y: -0.07447933, z: -0.005000487}
+  m_Size: {x: 0.17511888, y: 1.5210623, z: 0.18048829}
+  m_Center: {x: -0.0002869591, y: 0.16293481, z: -0.005000485}
 --- !u!82 &5711547654995549392
 AudioSource:
   m_ObjectHideFlags: 0
@@ -399,6 +400,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4f2f658073e4974d800c553fe797db1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!136 &148266761981756739
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 63641814881661016}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.18700674
+  m_Height: 0.63839483
+  m_Direction: 1
+  m_Center: {x: -0.0002869591, y: 0.57633793, z: -0.0050004944}
 --- !u!1 &1719926624625324885
 GameObject:
   m_ObjectHideFlags: 0
