@@ -1526,10 +1526,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14578110d5848454e864876ae9afe574, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 50
-  followDistance: 10
-  attackDistance: 5
-  ataque: {fileID: 0}
+  speed: 0
+  followDistance: 9
+  attackDistance: 2
+  ataque: {fileID: 8300000, guid: fb38e2a70a540a84d9360d8175ee0cd3, type: 3}
   normal: {fileID: 0}
   prefabfuego: {fileID: 8937230126906480146, guid: 26fed96cd97b202489e744f667155592, type: 3}
 --- !u!82 &3391882342456675883
@@ -1542,15 +1542,15 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 86c000f229ba721418e4dd92d54a4ad1, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.382
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 95
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -1588,7 +1588,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -1691,7 +1691,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: e9ee1d39e1ea83d4699ad12b8ee54e33, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 

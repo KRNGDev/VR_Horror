@@ -28,6 +28,7 @@ namespace SanBlasVR
         {
             transform.LookAt(new Vector3(target.position.x, transform.position.y, target.position.z));
             Physics.Raycast(transform.position, target.position - transform.position, out RaycastHit hitInfo);
+
             if (hitInfo.transform.name != "Main Camera")
             {
                 animator.SetBool("Attacking", false);
@@ -42,10 +43,12 @@ namespace SanBlasVR
         {
             if (Vector3.Distance(target.position, transform.position) < attackDistance)
             {
+                print("Ataca");
                 Attack();
             }
             else if (Vector3.Distance(target.position, transform.position) < followDistance)
             {
+                print("Moviendose");
                 Move();
             }
             else
@@ -57,21 +60,18 @@ namespace SanBlasVR
         {
             animator.SetBool("Attacking", true);
             animator.SetBool("Walking", false);
-            if (!audioSource.isPlaying)
-            {
-                audioSource.Play();
-            }
+            //audioSource.PlayOneShot(ataque);
         }
         private void Move()
         {
-            audioSource.Stop();
+
             animator.SetBool("Attacking", false);
             animator.SetBool("Walking", true);
             transform.Translate(Vector3.forward * speed * Time.deltaTime);
         }
         private void Stop()
         {
-            audioSource.Stop();
+
             animator.SetBool("Attacking", false);
             animator.SetBool("Walking", false);
         }
@@ -82,7 +82,12 @@ namespace SanBlasVR
                 GameObject ardiendo = Instantiate(prefabfuego, transform.position, transform.rotation);
                 ardiendo.transform.parent = transform;
                 animator.SetBool("Muerto", true);
+
             }
+        }
+        public void Destruir()
+        {
+            Destroy(gameObject);
         }
     }
 }
